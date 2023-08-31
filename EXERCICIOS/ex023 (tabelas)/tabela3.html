@@ -19,6 +19,13 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         thead, tfoot {
             background-color: gray;
             color: white;
@@ -34,6 +41,7 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
+            CAPTION (LEGENDA DA TABELA)
             THEAD (CABEÇA DA TABELA)
                 TR, TD, TH
             TBODY (CORPO DA TABELAS)
@@ -42,13 +50,14 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das unidades Federativas</caption>
         <thead>
-            <th>Estado</th>
-            <th>População</th>
+            <th scope="col">Estado</th>
+            <th scope="col" style="width: 100px;">População</th>
         </thead>
         <tfoot> <!-- Devido a semantica, podemos colocar o tfoot logo após o thead e não necessariamente no final. -->
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="num"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
