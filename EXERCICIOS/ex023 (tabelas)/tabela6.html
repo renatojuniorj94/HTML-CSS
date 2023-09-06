@@ -25,19 +25,34 @@
             padding: 10px;
         }
 
-        .destaque {
-
+        col.cnome{
+            background-color: chartreuse;
         }
+
+        col.cgrupo {
+            background-color: red;
+        }
+
+        col.cprof {
+            background-color: rgb(37, 123, 235);
+        }
+
     </style>
+
     <title>Exercício de tabela</title>
+
 </head>
+
 <body>
     <h1>Exercício de tabela</h1>
 
     <table>
         <colgroup>
-            
+            <col class="cnome">
+            <col class="cgrupo" span="2"> <!--span = quantidade de colunas-->
+            <col class="cprof">
         </colgroup>
+
         <caption>Cadastro</caption>
 
         <tr>
