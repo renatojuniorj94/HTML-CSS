@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get">
+    <p>
+        <label for="inome">Nome</label>
+        <input type="text" name="nome" id="inome" required maxlength="40" placeholder="Nome completo" autocomplete="name" size="30" required>
+    </p>
+    <p>
+        <label for="imedia">Média</label>
+        <input type="number" name="media" id="imedia" min="0" max="10" placeholder="0 a 10" step="0.5" value="5" required> <!-- value = mostra o número dentro da caixa --> <!-- step = variação da nota, neste caso varia de 0.5 em 0.5 pontos. -->
+    </p>
+    <p>
+        <label for="imes">Período letivo</label>
+        <input type="month" name="mes" id="imes" value="2023-03">
+    </p>
+    <p>
+        <label for="idia">Dia da prova</label>
+        <input type="date" name="dia" id="idia" value="2023-03-13">
+    </p>
+    <p>
+        <label for="ihora">Horário da prova</label>
+        <input type="time" name="hora" id="ihora">
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</body>
+</html>
