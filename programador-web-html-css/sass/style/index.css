@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+header,
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: row;
+  background: blue;
+  color: white;
+}
+
+header button,
+.contato button {
+  background: red;
+}
+
+header button:hover,
+.contato button:hover {
+  background: yellow;
+}
+
+header button::after,
+.contato button::after {
+  content: "Teste";
+}
+
+.contato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background: yellow;
+}
+
+/*# sourceMappingURL=index.css.map */

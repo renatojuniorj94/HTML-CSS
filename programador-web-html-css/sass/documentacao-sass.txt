@@ -1,0 +1,16 @@
+Documentação oficial Sass:
+https://sass-lang.com/guide/
+
+-Variáveis em Sass
+    $nome: ;
+
+-Templates secundários    
+    _header.scss > Estamos criando um somente para essa propriedade específica, no caso o 'Header'
+
+    No arquivo principal (index.scss) colocamos @import './header';
+    Assim foi feita a importação do template para 'Header'.
+
+-Mixin
+    @mixin nome() {
+      Aqui adicionamos os valores CSS.  
+    }
