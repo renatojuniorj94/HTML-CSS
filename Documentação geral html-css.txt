@@ -1,0 +1,54 @@
+----------------HTML-----------------
+
+Estrutura Básica:
+
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Título da Página</title>
+</head>
+<body>
+    <!-- Conteúdo da Página Aqui -->
+</body>
+</html>
+Tags Fundamentais:
+
+<html>: Define o início e o fim do documento HTML.
+<head>: Contém informações como título, metadados, links para estilos e scripts.
+<title>: Define o título da página exibido na aba/navegador.
+<body>: Contém todo o conteúdo visível da página.
+Tags para Texto:
+
+<h1> a <h6>: Cabeçalhos de diferentes tamanhos.
+<p>: Parágrafo.
+<strong> ou <b>: Deixa o texto em negrito.
+<em> ou <i>: Coloca o texto em itálico.
+<u>: Sublinha o texto.
+Tags para Listas:
+
+<ul>: Lista não ordenada.
+<ol>: Lista ordenada.
+<li>: Item da lista.
+Tags para Links e Imagens:
+
+<a href="URL">Texto do Link</a>: Cria um link para outra página.
+<img src="caminho/da/imagem.jpg" alt="Texto Alternativo">: Insere uma imagem.
+Tags para Estruturação:
+
+<div>: Define uma seção genérica ou um contêiner.
+<span>: Utilizado para aplicar estilos em um trecho específico de texto.
+Tags para Tabelas:
+
+<table>: Define uma tabela.
+<tr>: Define uma linha na tabela.
+<td>: Define uma célula na tabela.
+Tags para Formulários:
+
+<form>: Define um formulário.
+<input>: Campo de entrada para formulário.
+<textarea>: Área de texto para entrada de múltiplas linhas.
+<button>: Cria um botão.
+
+-----------------FIM-------------------
