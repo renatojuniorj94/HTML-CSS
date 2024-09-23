@@ -1,5 +1,5 @@
 *************** Módulo 1 *********************
-////////////// Capítulo 1 - ///////////////////
+//////////// Capítulo 1 - /////////////
 
 Referências on-line (Documentação):
 - MDN (Mozilla Developer Network)
@@ -29,18 +29,40 @@ Bibliografia:
 - Smashing HTML 5 (Bill Sanders - Bookman)
 - Smashing CSS (Eric Meyer - Bookman)
 
+Como surgiu a internet?
 
+Internet surgiu na guerra fria - 1949
+Protoco de controle de rede - NCP (Network Control Protocol)
+    * Esse protocolo parava toda a rede para que 2 computadores pudessem se comunicar.
 
+TCP/IP foi a evolução de NCP.
 
+ARPANET foi dívida em 3
+Militar > MILNET
+Cientifica - NSFNET
+Comercial
 
+Mapa de cabeamento submarino
+www.submarinecablemap.com
 
+Como funciona a internet?
+https://youtu.be/TNQsmPf24go
 
+/////////// Capítulo 2 ////////////
+Aula 1 - Como a internet funciona?
 
+MB = Megabytes (Armazenamento)
+Mb = Megabits (Transmissão)
+01000001 > 8 bits = 1 byte = A
+1024 bytes = 1 KB
+1024 KB = 1 MB
+1024 MB = 1 GB
+1024 GB = 1 TB
+1024 TB = 1 PB
+1024 PB = 1 EB
+1024 EB = 1 ZB
+1024 ZB = 1 YB
+Para entender > Código multibyte UTF-8
 
-
-
-
-
-
-
-************* Módulo 5 ******************
+Para descobrir meu IP:
+https://www.iplocation.net/
