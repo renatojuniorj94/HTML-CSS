@@ -66,3 +66,30 @@ Para entender > Código multibyte UTF-8
 
 Para descobrir meu IP:
 https://www.iplocation.net/
+
+Aula 2 - O que é domínio e hospedagem
+
+Ao acesar um site:
+Meu computado > DNS (retorna IP) > Meu computador > Servidor
+
+Domínio:
+- Pago anualmente
+- Nome único
+- Vários TLDs (Top level domain)
+
+
+www.github.com/gustavoguanabara > URL (Uniform resource location - localizador de recurso único)
+
+www > Sub-domínio
+github.com > Domínio
+.com > TLD
+/gustavoguanabara > Caminho
+
+gustavoguanabara.github.io (URL)
+github.io (Domínio)
+.io(GTLD)
+gustavoguanabara (Sub-domínio)
+
+https:// > Protocolo
+GTLD (Generic Top level domain) > .net / .io / .gov
+CCTLD (Country Code Top level domain) > .br / .us / .uk / .ar
