@@ -12,5 +12,5 @@ h2{
     color: darkred;
 }
 p{
-    text-align: justify;
+    text-align: justify; /* Preenche o texto na tela*/
 }
